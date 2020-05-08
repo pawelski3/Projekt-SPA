@@ -17,7 +17,7 @@ export const treatments = () => {
     let treatments=res.map(treatment=>{
       return `<p>${treatment.name}</p>`
     })
-    console.log(treatments.join(""))
+    //console.log(treatments.join(""))
 
 
     return fragment

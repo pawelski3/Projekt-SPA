@@ -9,8 +9,8 @@ export class Router {
     this.body = $(document.body);
     this.outlet = $('main');
     this.routes = routes;
-    console.log("constr")
-    console.log("loc path const " + location.pathname)
+
+    
   }
 
   mount(outlet) {
@@ -18,7 +18,7 @@ export class Router {
 
     // detail to, np. { path: '/booking' }
     this.body.on(routeChange, (event, detail) => {
-      console.log("zmiana routa")
+      //console.log("zmiana routa")
       this.navigate(detail.path);
 
 
@@ -31,7 +31,7 @@ export class Router {
     // sciezke, gdy uzytkownik klika Wstecz (<-) lub Naprzod (->)
    
     window.addEventListener('popstate', e => {
-      console.log(e + "loc path w popstate: " + location.pathname);
+      
 
     //   //divs.forEach(v=>{document.getElementById(v.id).classList.remove('w2');})
     //   console.log("state id= " + e.state.id);
@@ -46,14 +46,10 @@ export class Router {
 
 
   init() {
-    console.log("loc patname w init: " + location.pathname)
+    //console.log("loc patname w init: " + location.pathname)
     this.navigate(location.pathname);
     var f = window.location.pathname
-    // this.body.on(routeChange, (event, f) => {
-    //   //this.navigate(detail.path);
-    //   console.log("route change "+event)
-    // this.navigate(f)
-    // });
+  
   }
 
   get(path) {
@@ -69,11 +65,7 @@ export class Router {
   navigate(path, data = {}) {
     // sciezka istnieje, mozna nawigowac
     if (this.has(path)) {
-      // // { path: '/booking', data: {}, component: booking }
-      // const { component } = this.get(path);
-      // console.log("Component: " + component)
-      // //$('div').text(component)
-      // this.outlet.empty().append(component);
+   
 
  // { path: '/booking', data: {}, component: booking }
  const { component } = this.get(path);
@@ -86,10 +78,9 @@ export class Router {
 
 
     } else {
-      console.log("navigate brak")
       this.outlet.empty().append(oops);
     }
-    console.log(data)
+    //console.log(data)
     if(data){
     history.pushState(data, '', path);}
 

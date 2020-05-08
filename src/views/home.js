@@ -2,9 +2,9 @@ import $ from 'jquery';
 
 
 export const home = () => {
-  $("#c1").click(function() {
-    alert( "Handler for .click() called." );
-  });//text("sdsss")//on("click",alert("ddddd"))
+  // $("#c1").click(function() {
+  //   alert( "Handler for .click() called." );
+  // });//text("sdsss")//on("click",alert("ddddd"))
   const fragment = $(new DocumentFragment());
 
   fragment
