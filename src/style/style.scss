@@ -1,0 +1,22 @@
+//@import '../node_modules/font-awesome/scss/font-awesome.scss';
+@import "bootstrap";
+
+body{
+    background-color: blueviolet;
+    color:white;
+    div{
+        background-color: green($color: #000000);
+        color:red;
+        border:2px solid blue;
+        
+    }
+}
+
+img{
+    width:200px;
+    height:200px;
+}
+
+nav{
+    outline:2px solid red;
+}
