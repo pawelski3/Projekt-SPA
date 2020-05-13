@@ -4,3 +4,4 @@ export * from './rooms';
 export * from './treatments';
 export * from './oops';
 export * from './cart';
+export * from './registration';

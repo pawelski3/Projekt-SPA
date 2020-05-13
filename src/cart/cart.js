@@ -6,9 +6,17 @@ import { service } from '../common/service';
 export class Cart {
 
     constructor() {
-      this.key = 'IT_SPA_CART#ps1';
+      this.key = 'IT_SPA_CART';
+      // this.id=[]
+      
+      // this.rooms=[]
+      // this.treatments=[]
     }
   
+    // doOrder(){
+    //   return 
+    // }
+
     cookie() {
       // PRZED: 'key1=val1; key2=val2; . . .'
       const cookies = document.cookie.split(';');

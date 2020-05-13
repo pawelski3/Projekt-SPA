@@ -12,9 +12,12 @@ export const service = {
     d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
     var expires = "expires=" + d.toUTCString();
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-  }
+  },
 
-
+  getDate(){
+    let utc = new Date().toJSON().slice(0,10).replace(/-/g,'-');
+    return utc
+}
 
 
 };

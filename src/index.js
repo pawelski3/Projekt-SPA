@@ -5,7 +5,9 @@ import { Router } from './router/router';
 import { nav } from './navigation/nav';
 
 
-
+$("#c1").click(function() {
+    alert( "Handler for .click() called." );
+  });
 
 const main = $('main');
 
