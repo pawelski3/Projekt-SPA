@@ -2,75 +2,99 @@
   "users": [
     {
       "id": 1,
-      "name": "d",
-      "surname": "s",
-      "email": "s",
-      "password": "ddddddddd",
-      "registration date": "2020/05/10"
+      "name": "Paweł",
+      "surname": "Gaweł",
+      "email": "justit",
+      "password": "justit0bret7wrs",
+      "registration date": "2020-05-16"
     },
     {
       "id": 2,
-      "name": "Tomasz",
-      "surname": "Nowak",
-      "email": "tomn@we.sd",
-      "password": "ddddddddddd",
-      "registration date": "2020/05/10"
+      "name": "ert",
+      "surname": "fffff",
+      "email": "gggg@qw.jk",
+      "password": "dfgdfgfdgfdgdeeiqtf9n",
+      "registration_date": "2020-05-18"
     },
     {
       "id": 3,
-      "name": "Jenny",
-      "surname": "Does",
-      "email": "qwe",
-      "password": "wwweeeeeeeee",
-      "registration date": "2020/05/11"
+      "name": "Daniel",
+      "surname": "Nowak",
+      "email": "dn@dn.dn",
+      "password": "111111470v78olu",
+      "registration_date": "2020-05-18"
     },
     {
       "id": 4,
-      "name": "Jenny",
-      "surname": "Does",
-      "email": "AeN@wp.pl",
-      "password": "wwweeeeeeeee",
-      "registration date": "2020/05/11"
+      "name": "jkjk",
+      "surname": "kjkjk",
+      "email": "kjkj@we.lo",
+      "password": "bnbnbnbmvetg2ey8",
+      "registration_date": "2020-05-18"
     },
     {
       "id": 5,
-      "name": "y",
-      "surname": "r",
-      "email": "y",
-      "password": "tttttttttt",
-      "registration date": "2020/05/11"
+      "name": "v",
+      "surname": "o",
+      "email": "o@we.pl",
+      "password": "oooooooooymr81aq8q",
+      "registration_date": "2020-05-18"
     },
     {
       "id": 6,
-      "name": "u",
-      "surname": "i",
-      "email": "yiiiii",
-      "password": "iiiiiiiafg2",
-      "registration date": "2020/05/11"
+      "name": "fff",
+      "surname": "g",
+      "email": "MrDoe@as.en",
+      "password": "gggffffffj7c5u58aj",
+      "registration_date": "2020-05-18"
     },
     {
       "id": 7,
-      "name": "k",
-      "surname": "j",
-      "email": "j",
-      "password": "kkkkkkkkkkkzB0.1352647316485147",
-      "registration date": "2020/05/11"
+      "name": "Tomasz",
+      "surname": "Nowak",
+      "email": "asd@we.jk",
+      "password": "ggg@@WW123q1l37ndyc",
+      "registration_date": "2020-05-18"
     },
     {
       "id": 8,
-      "name": "k",
-      "surname": "j",
-      "email": "jfgh",
-      "password": "kkkkkkkkkkkzB0.19414855497170358",
-      "registration date": "2020/05/11"
+      "name": "qwe",
+      "surname": "kkkk",
+      "email": "kkk@sd.fd",
+      "password": "kll,,,,8tfvbwd0e",
+      "registration_date": "2020-05-19"
     },
     {
       "id": 9,
-      "name": "yt",
-      "surname": "f",
-      "email": "h",
-      "password": "hggggggggggggzB",
-      "registration date": "2020/05/11"
+      "name": "adsad",
+      "surname": "dd",
+      "email": "dn@dn.dn3",
+      "password": "111111uqy7jiwe6",
+      "registration_date": "2020-05-20"
+    },
+    {
+      "id": 10,
+      "name": "fff",
+      "surname": "ggg",
+      "email": "dn@dn.fg",
+      "password": "fffgggfherl4rgq",
+      "registration_date": "2020-05-20"
+    },
+    {
+      "id": 11,
+      "name": "ghh",
+      "surname": "uyuy",
+      "email": "qwe@we.kl",
+      "password": "yuuyghgr2z0u2z9",
+      "registration_date": "2020-05-21"
+    },
+    {
+      "id": 12,
+      "name": "hhghj",
+      "surname": "o",
+      "email": "qw@we.pl",
+      "password": "ee3344444ho9lcpoea",
+      "registration_date": "2020-05-22"
     }
   ],
   "rooms": [
@@ -108,6 +132,34 @@
       "beds": 2,
       "guests": 4,
       "price": 340
+    },
+    {
+      "id": 6,
+      "name": "Pokój narzędziowy",
+      "beds": 6,
+      "guests": 6,
+      "price": 350
+    },
+    {
+      "id": 7,
+      "name": "Pokój systemowy",
+      "beds": 6,
+      "guests": 6,
+      "price": 350
+    },
+    {
+      "id": 8,
+      "name": "Pokój serwerowy",
+      "beds": 4,
+      "guests": 4,
+      "price": 250
+    },
+    {
+      "id": 9,
+      "name": "Pokój algorytmiczny",
+      "beds": 6,
+      "guests": 6,
+      "price": 199
     }
   ],
   "treatments": [
@@ -159,6 +211,20 @@
       "area": "body",
       "time": 45,
       "price": 120
+    },
+    {
+      "id": 8,
+      "name": "Masaż przewodami kabla skętki",
+      "area": "body",
+      "time": 45,
+      "price": 130
+    },
+    {
+      "id": 9,
+      "name": "Masaż panelem krosowniczym",
+      "area": "body",
+      "time": 35,
+      "price": 190
     }
   ]
 }

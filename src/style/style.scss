@@ -1,16 +1,75 @@
 //@import '../node_modules/font-awesome/scss/font-awesome.scss';
 @import "bootstrap";
+$opacityBackground: rgba(248, 237, 248, 0.6);
+$fontColor:#6d2885;
 
 body{
-    background-color: blueviolet;
-    color:white;
-    div{
-        background-color: green($color: #000000);
-        color:red;
-        border:2px solid blue;
-        
+    background-color: white;
+    color:black;
+    margin-top: 55px;
+    
+}
+ 
+main{
+    height: 1600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed;
+    margin:2px;
+}
+
+div{
+    //border:2px solid blue;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.card-body{
+    border:2px solid grey;
+    border-radius: 25px;
+    color:$fontColor;
+    background-color: rgba(248, 237, 248, 0.6);
+    //background-color: lavender;
+    //background-blend-mode: lighten;
+}
+
+.lista{
+    background-color: $opacityBackground
+    
+}
+
+.lista{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    height: 50px;
+  line-height: 50px;
+    button{
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 }
+
+.fontColor{
+    color:#6d2885;
+}
+
+
+
+label{
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+
 
 
 form{
@@ -32,5 +91,40 @@ img{
 }
 
 nav{
-    outline:2px solid red;
+    display:flex;
+}
+
+
+
+#dymek{
+    background-color:#6d2885;
+    //color:#6d2885;
+    color:white;
+    font-size: 10px;
+    position:fixed;
+  left: 0;
+  top:0;
+  width: 300px;
+  border: 3px solid #73AD21;
+  border-radius: 15px;
+}
+
+#RegistrationInfo{
+    text-align: center;
+    min-height:30px;
+    //width:auto;
+    //background-color: white;
+    color:red;
+    font-size:20px;
+    font-weight: bold;
+    //outline:2px solid green;
+}
+
+#registration{
+    //background-image: url("../images/treatments/two_persons.jpg");
+}
+
+#sum{
+    font-size:30px;
+    font-weight: bold;
 }

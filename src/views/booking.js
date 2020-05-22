@@ -5,7 +5,7 @@ export const booking = () => {
 
   fragment
     .append('<h2>Booking</h2>')
-    .append('<p>Lorem ipsum dolor sit amet...</p>');
+    .append('')
 
     return Promise.resolve(fragment);
 };

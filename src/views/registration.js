@@ -1,77 +1,83 @@
 import $ from 'jquery';
 import { registrationService } from '../registration/registration';
 import { checkPasswordStregth } from '../registration/passwordComplexity';
+import icon from "../images/treatments/two_persons.jpg"
 
 export const registration = () => {
-    
-   
-    //const fragment = $(new DocumentFragment());
+  
+  //$('main').css('background-image',"url('images/treatments/two_persons.jpg')") 
+  //$('main').attr('style','background-image: url("'+icon+'")') 
+  $('main').height(600)
+    const fragment = $(new DocumentFragment());
 
-    const fragment=`<div>
-    <form class="form-signin">
-    <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+    const div=$('<div id="registration" class="col-lg-4 col-md-6 mb-4"></div>')
+    const info=$('<div id="RegistrationInfo" ></div>')
+    const form=$('<form class="form-signin"></form>')
+    const part1=$(`
+    <h1 class="h3 mb-3 font-weight-normal fontColor">Zarejestruj się</h1>
+   
     <label for="inputName" class="sr-only">Imię</label>
-    <input type="text" id="inputName" class="form-control" placeholder="Imię" required autofocus>
+    <input type="text" id="inputName" class="form-control" placeholder="Imię"  >
     <label for="inputSurname" class="sr-only">Nazwisko</label>
-    <input type="text" id="inputSurname" class="form-control" placeholder="Nazwisko" required autofocus>
+    <input type="text" id="inputSurname" class="form-control" placeholder="Nazwisko" >
     
     <label for="inputEmail" class="sr-only">Email address</label>
-    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-    <label for="inputPassword" class="sr-only">Password</label>
-    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-    <progress id="passwordComplexity" value="0"></progress>
-    <div id="RegistrationInfo" ></div>
-    <button id="btnReg" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" >
     
-   
-  </form>
-  
-  </div>
-  `
-$("main").empty().append(fragment) 
+    `)
+    //<label for="inputPassword" class="sr-only">Password</label>
+    const input=$('<input type="password" id="inputPassword" class="form-control" placeholder="Password">')
+    const progress=$('<progress id="passwordComplexity" value="0"></progress>')
+    
+    const button=$('<button id="btnReg" class="btn btn-lg btn-primary btn-block" type="submit">Wyślij</button>')
+
+
+
+//$("main").append(fragment) 
 
 // $("#btnReg").on("click",function() {
 //     alert( $( this ).text() );
 //   });
 
-
-
-
-
-  $("#btnReg").on("click",function(e) {
+  button.on("click",function(e) {
         registrationService.przycisk(e) 
       });
 
-$("#inputPassword").on('keyup',function() {
-    checkPasswordStregth($("#inputPassword").val())
+input.on('keyup',function() {
+    checkPasswordStregth($('input[id="inputPassword"]').val())
       });
 
+      //part1.append(input,progress,button)
+      
+      form.append(part1,input,progress,button)
+      div.append(info,form)
+      //fragment.append(form)
+      return Promise.resolve(fragment.append(div))
+//const fragment1="<hr>"
 
-const fragment1="<hr>"
+    // const data = {
+    //     "id": 9,
+    //     "name": "Mia",
+    //     "surname": "Doe",
+    //     "email": "MDoe@as.en",
+    //     "registration date": "5.04.2020"
+    // }
 
-    const data = {
-        "id": 9,
-        "name": "Mia",
-        "surname": "Doe",
-        "email": "MDoe@as.en",
-        "registration date": "5.04.2020"
-    }
-
-    return Promise.resolve(fragment1)
-    const registr=registrationService.saveUser(data)
-        .then(res => {
+    // return Promise.resolve(fragment1)
+    // const registr=registrationService.saveUser(data)
+    //     .then(res => {
             
-            console.log("regiservis")
-            //registrationService.przycisk()
-            return fragment1
-                //.append(res + '<h2>Dodano użytkownika</h2>')
+    //         console.log("regiservis")
+    //         //registrationService.przycisk()
+    //         return fragment1
+    //             //.append(res + '<h2>Dodano użytkownika</h2>')
                
 
-        })
-        .catch(er => {
-            return fragment1
-                //.append(er +'<h2>Wystąpiły problemy z połączeniem. Prosimy spróbować później</h2>')
-        })
+    //     })
+    //     .catch(er => {
+    //         return fragment1
+    //             //.append(er +'<h2>Wystąpiły problemy z połączeniem. Prosimy spróbować później</h2>')
+    //     })
 
 
 };

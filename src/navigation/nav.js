@@ -7,11 +7,15 @@ import { router } from '../index.js';
 
 
 export const nav = () => {
-  
+  //<nav class="navbar navbar-expand navbar-dark bg-dark">
   const navbar = $(`
-    <nav class="navbar navbar-expand navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+   
       <span class="navbar-brand">IT SPA</span>
+     
       <ul class="navbar-nav mr-auto"></ul>
+      
+      
     </nav>
   `);
 

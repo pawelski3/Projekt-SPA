@@ -7,7 +7,7 @@ export class Cart {
 
     constructor() {
       this.key = 'IT_SPA_CART';
-      // this.id=[]
+     
       
       // this.rooms=[]
       // this.treatments=[]
@@ -46,6 +46,8 @@ export class Cart {
     }
   
     set(value) {
+      // value=this.id+value
+      // this.id++
       const stringifiedValue = JSON.stringify(value);
       document.cookie = `${this.key}=${stringifiedValue}`;
     }
