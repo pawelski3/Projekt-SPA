@@ -2,7 +2,6 @@ export const service = {
 
   getRooms(parametr) {
     // pobiera liste wszystkich pokoi
-    //console.log("json rooms  " + parametr)
     return fetch(`http://localhost:3000/${parametr}`)
       .then(response => response.json());
   },
@@ -31,7 +30,6 @@ export const service = {
         else { return false }
       } else { return false }
     }
-   //return false
   }
 
 };

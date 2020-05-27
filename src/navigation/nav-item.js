@@ -5,7 +5,6 @@ import $ from 'jquery';
 export const navItem = (text, click) => {
   const navItem = $('<li class="nav-item active"></li>');
   const anchor = $('<a class="btn btn-link text-light"></a>');
-  //console.log("click= "+click);
   anchor.text(text).on('click', click);
 
 document.crea

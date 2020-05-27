@@ -1,5 +1,6 @@
-//@import '../node_modules/font-awesome/scss/font-awesome.scss';
+
 @import "bootstrap";
+
 $opacityBackground: rgba(248, 237, 248, 0.6);
 $fontColor:#6d2885;
 
@@ -11,20 +12,19 @@ body{
 }
  
 main{
-    height: 1600px;
+    height: 750px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
     background-attachment: fixed;
-    margin:2px;
+    //margin-top:10px;-----------------------------------
+    padding:5px;
 }
 
 div{
-    //border:2px solid blue;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-   
 }
 
 .card-body{
@@ -32,13 +32,6 @@ div{
     border-radius: 25px;
     color:$fontColor;
     background-color: rgba(248, 237, 248, 0.6);
-    //background-color: lavender;
-    //background-blend-mode: lighten;
-}
-
-.lista{
-    background-color: $opacityBackground
-    
 }
 
 .lista{
@@ -49,9 +42,9 @@ div{
     margin-bottom: 1px;
     padding-left: 5px;
     padding-right: 5px;
-    
+    background-color: $opacityBackground;
     height: 50px;
-  line-height: 50px;
+    line-height: 50px;
     button{
         margin-top: 5px;
         margin-bottom: 5px;
@@ -60,16 +53,33 @@ div{
 
 .fontColor{
     color:#6d2885;
+    font-weight: bold;
 }
 
-
+.divFlex{
+    display: flex;
+    border-radius: 8px;
+    width:80%;
+    font-size: 23px;
+    margin-bottom: 5px;
+    background-color: $opacityBackground;
+    img{
+        width:400px;
+        height:300px;
+        border-radius: 8px;
+        margin:2px;
+    }
+    p{
+        text-align: justify;
+        padding-right:5px;
+        padding-left:5px;
+    }
+}
 
 label{
     margin-right: 3px;
     margin-left: 3px;
 }
-
-
 
 
 form{
@@ -88,43 +98,62 @@ progress {
 img{
     width:200px;
     height:200px;
+    border-radius: 8px;
 }
 
-nav{
-    display:flex;
+a{
+    text-decoration: none;
+    color:darkblue;
+    font-size: 12;
 }
-
-
+#nav1{
+    display: flex;
+    justify-content: space-between;
+    color:red;
+    outline:2px solid green;
+}
 
 #dymek{
     background-color:#6d2885;
     //color:#6d2885;
     color:white;
-    font-size: 10px;
+    font-size: 13px;
     position:fixed;
-  left: 0;
-  top:0;
-  width: 300px;
-  border: 3px solid #73AD21;
-  border-radius: 15px;
+    padding: 4px;
+    width: 300px;
+    border-radius: 15px;
+  p{
+    text-align: left;
+    margin:0px;
+  }
 }
 
 #RegistrationInfo{
     text-align: center;
     min-height:30px;
-    //width:auto;
-    //background-color: white;
     color:red;
     font-size:20px;
     font-weight: bold;
-    //outline:2px solid green;
-}
-
-#registration{
-    //background-image: url("../images/treatments/two_persons.jpg");
 }
 
 #sum{
     font-size:30px;
     font-weight: bold;
+}
+
+#sum1{
+    font-size: 16px;
+}
+
+#spanInNav{
+    font-size: 20px;
+}
+
+#ulInNav{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    a{
+        font-size: 20px;
+    }
 }
