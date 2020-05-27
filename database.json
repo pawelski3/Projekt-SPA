@@ -2,138 +2,18 @@
   "users": [
     {
       "id": 1,
-      "name": "Paweł",
-      "surname": "Gaweł",
-      "email": "justit",
-      "password": "justit0bret7wrs",
-      "registration date": "2020-05-16"
+      "name": "Tomasz",
+      "surname": "Kowal",
+      "email": "t@t.pl",
+      "password": "111111xdgxwmzx0",
+      "registration_date": "2020-05-27"
     },
     {
       "id": 2,
-      "name": "ert",
-      "surname": "fffff",
-      "email": "gggg@qw.jk",
-      "password": "dfgdfgfdgfdgdeeiqtf9n",
-      "registration_date": "2020-05-18"
-    },
-    {
-      "id": 3,
-      "name": "Daniel",
-      "surname": "Nowak",
-      "email": "dn@dn.dn",
-      "password": "111111470v78olu",
-      "registration_date": "2020-05-18"
-    },
-    {
-      "id": 4,
-      "name": "jkjk",
-      "surname": "kjkjk",
-      "email": "kjkj@we.lo",
-      "password": "bnbnbnbmvetg2ey8",
-      "registration_date": "2020-05-18"
-    },
-    {
-      "id": 5,
-      "name": "v",
-      "surname": "o",
-      "email": "o@we.pl",
-      "password": "oooooooooymr81aq8q",
-      "registration_date": "2020-05-18"
-    },
-    {
-      "id": 6,
-      "name": "fff",
-      "surname": "g",
-      "email": "MrDoe@as.en",
-      "password": "gggffffffj7c5u58aj",
-      "registration_date": "2020-05-18"
-    },
-    {
-      "id": 7,
-      "name": "Tomasz",
-      "surname": "Nowak",
-      "email": "asd@we.jk",
-      "password": "ggg@@WW123q1l37ndyc",
-      "registration_date": "2020-05-18"
-    },
-    {
-      "id": 8,
-      "name": "qwe",
-      "surname": "kkkk",
-      "email": "kkk@sd.fd",
-      "password": "kll,,,,8tfvbwd0e",
-      "registration_date": "2020-05-19"
-    },
-    {
-      "id": 9,
-      "name": "adsad",
-      "surname": "dd",
-      "email": "dn@dn.dn3",
-      "password": "111111uqy7jiwe6",
-      "registration_date": "2020-05-20"
-    },
-    {
-      "id": 10,
-      "name": "fff",
-      "surname": "ggg",
-      "email": "dn@dn.fg",
-      "password": "fffgggfherl4rgq",
-      "registration_date": "2020-05-20"
-    },
-    {
-      "id": 11,
-      "name": "ghh",
-      "surname": "uyuy",
-      "email": "qwe@we.kl",
-      "password": "yuuyghgr2z0u2z9",
-      "registration_date": "2020-05-21"
-    },
-    {
-      "id": 12,
-      "name": "hhghj",
-      "surname": "o",
-      "email": "qw@we.pl",
-      "password": "ee3344444ho9lcpoea",
-      "registration_date": "2020-05-22"
-    },
-    {
-      "id": 13,
-      "name": "fggfd",
-      "surname": "fdgfdgfd",
-      "email": "fdgfgd@we.kl",
-      "password": "gfgfd89w3j1lpcaa",
-      "registration_date": "2020-05-27"
-    },
-    {
-      "id": 14,
-      "name": "trtre",
-      "surname": "rttr",
-      "email": "dn@dn.dnr",
-      "password": "rrrrrrrrrrrrrrrrqyph7dkpx",
-      "registration_date": "2020-05-27"
-    },
-    {
-      "id": 15,
-      "name": "uu",
-      "surname": "uuuu",
-      "email": "uiui@we.kl",
-      "password": "3434343443347lzpg6nyn",
-      "registration_date": "2020-05-27"
-    },
-    {
-      "id": 16,
-      "name": "Paweł",
-      "surname": "KOwal",
-      "email": "pa@pa.pl",
-      "password": "dffdfdfd1q66utxu1",
-      "registration_date": "2020-05-27"
-    },
-    {
-      "id": 17,
-      "name": "NOwak",
-      "surname": "Nowak",
-      "email": "n@n.nn",
-      "password": "1111118d2qc5t9v",
+      "name": "Anna",
+      "surname": "Kaliska",
+      "email": "ak@wp.pl",
+      "password": "azsxqwa6zrvtjx5",
       "registration_date": "2020-05-27"
     }
   ],
