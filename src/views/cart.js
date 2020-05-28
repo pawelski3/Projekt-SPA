@@ -47,7 +47,7 @@ export const cart = () => {
     return arrToDelete
   }
 
-  let ul = $('<ul ></ul>')
+  let ul = $('<ul class="list-group"></ul>')
 
   let toPay = []
   let li = arr.map(elem => {
@@ -74,7 +74,7 @@ export const cart = () => {
     })
     let li1
     if (typeOfSubject) {
-      li1 = $(`<li class="align-middle lista" id=${content[0]}>${content[1]} od ${content[2]} do ${content[3]}, cena: ${content[4]} zł/doba, ilość dób: ${daysDifference}, do zapłaty: ` + content[4] * daysDifference + ' zł </li>'
+      li1 = $(`<li class="align-middle lista" id=${content[0]}>${content[1]} od ${content[2]} do ${content[3]}, cena: ${content[4]} zł/doba, ilość dób: ${daysDifference}, do zapłaty: ` + content[4] * daysDifference + ' zł</li>'
       )
     }
     else {

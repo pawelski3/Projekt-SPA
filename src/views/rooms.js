@@ -37,7 +37,7 @@ export const rooms = () => {
         else {
           if (numbersOfRooms % room.id == 0) {
             button = $('<br><div class="row justify-content-center"><button class="btn btn-secondary" disabled>Rezerwuj</button></div>')
-            availability.append("<h6>Oferta promocyjna tylko dla zalogowanych użytkowników</h6>")
+            availability.append("<h6>Oferta dla zalogowanych użytkowników</h6>")
           } else {
             button = $('<br><div class="row justify-content-center"><button class="btn btn-secondary">Rezerwuj</button></div>')
             availability.append("<h6>Dostępny</h6>")

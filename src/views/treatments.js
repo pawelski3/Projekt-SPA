@@ -32,7 +32,7 @@ export const treatments = () => {
         {
           if(numbersOfTreatments%treatment.id==0){
             button = $('<button class="btn btn-secondary" disabled>Rezerwuj</button>')
-            availability.append("<h6>Oferta promocyjna tylko dla zalogowanych użytkowników</h6>")
+            availability.append("<h6>Oferta dla zalogowanych użytkowników</h6>")
           }else {button = $('<button class="btn btn-secondary">Rezerwuj</button>')
           availability.append("<h6>Dostępny</h6>")
         }
